@@ -1,0 +1,15 @@
+{
+    "name": "ubforum.ellypsis",
+    "description": "Unofficial UBports forum webapp",
+    "architecture": "all",
+    "title": "UBports Forum",
+    "hooks": {
+        "ubforum": {
+            "apparmor": "ubforum.apparmor",
+            "desktop":  "ubforum.desktop"
+        }
+    },
+    "version": "1.0",
+    "maintainer": "ellypsis <ellypsis@msquare.ovh>",
+    "framework" : "ubuntu-sdk-15.04.5"
+}

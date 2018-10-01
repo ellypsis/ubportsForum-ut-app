@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=UBports Forum
+Exec=webapp-container --enable-back-forward --webappUrlPatterns=https?://forums.ubports.com/* https://forums.ubports.com/
+Icon=logo.svg
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
